@@ -3,8 +3,8 @@
 
 #a)Load the rating data into R and save as a data frame
 #Load the data and set the working directory
-setwd("~/Downloads")
-recommendDB = read.csv("recommendDB.csv")
+setwd("~/Document")
+recommendDB = read.csv("movieData.csv")
 
 
 #b)Define a data frame that has a row for each consumer, and 5 columns. Fill it with NA
